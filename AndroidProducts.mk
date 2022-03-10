@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2021 The aospOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_crownlte.mk
+    $(LOCAL_DIR)/aosp_crownlte.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_crownlte-eng \
-    lineage_crownlte-user \
-    lineage_crownlte-userdebug
+    aosp_crownlte-eng \
+    aosp_crownlte-user \
+    aosp_crownlte-userdebug
