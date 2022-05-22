@@ -31,6 +31,7 @@ TARGET_SCREEN_WIDTH := 1440
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 EVO_BUILD_TYPE := OFFICIAL
 TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_USES_MINI_GAPPS := true
 
 ## Device identifier, this must come after all inclusions
 PRODUCT_NAME := evolution_crownlte
