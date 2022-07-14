@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_crownlte.mk
+    $(LOCAL_DIR)/xdroid_crownlte.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_crownlte-eng \
-    evolution_crownlte-user \
-    evolution_crownlte-userdebug
+    xdroid_crownlte-eng \
+    xdroid_crownlte-user \
+    xdroid_crownlte-userdebug
