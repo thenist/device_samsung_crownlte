@@ -14,7 +14,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- xd. About Phone -->
-    <string name="xd_device_name_summary">Samsung Galaxy Note 9</string>
+    <string name="xd_device_name_summary">Samsung Galaxy Note9</string>
     <string name="xd_chipset_type_summary">Samsung Exynos™ 9810</string>
     <string name="xd_gpu_summary">Mali-G72 MP18</string>
     <string name="xd_camera_mp_summary">8MP+12MP+12MP Triple Camera</string>
