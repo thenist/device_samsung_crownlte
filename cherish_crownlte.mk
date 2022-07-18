@@ -27,13 +27,22 @@ $(call inherit-product, device/samsung/crownlte/device.mk)
 TARGET_SCREEN_HEIGHT := 2960
 TARGET_SCREEN_WIDTH := 1440
 
-# Inherit some common Evolution X stuff.
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
-EVO_BUILD_TYPE := OFFICIAL
+# Inherit some common CherishOS stuff.
+$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
+
+# Inherit some props from Cherish
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.cherish.maintainer=thenist
+
+TARGET_INCLUDE_STOCK_ARCORE := false
+TARGET_GAPPS_ARCH := arm64
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
 TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 ## Device identifier, this must come after all inclusions
-PRODUCT_NAME := evolution_crownlte
+PRODUCT_NAME := cherish_crownlte
 PRODUCT_DEVICE := crownlte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-N960F
